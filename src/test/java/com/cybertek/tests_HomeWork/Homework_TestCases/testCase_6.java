@@ -42,9 +42,9 @@ public class testCase_6 {
 
 
 
-     // WebElement emailFromCybertek=driver.findElement(By.cssSelector("tbody#schranka td:nth-of-type(1)"));
-      //emailFromCybertek.click();
-      // System.out.println(emailFromCybertek.getText());
+    WebElement emailFromCybertek=driver.findElement(By.cssSelector("tbody#schranka td:nth-of-type(1)"));
+      emailFromCybertek.click();
+  System.out.println(emailFromCybertek.getText());
 
    }
 
